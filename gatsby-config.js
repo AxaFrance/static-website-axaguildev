@@ -22,17 +22,12 @@ module.exports = {
         path: `${__dirname}/src/pages`,
       },
     },
-    {
-      resolve: "gatsby-source-contract",
-      options: {
-        apiKey: "uL19TxbOTqdHcHTPd1AgQbR-FjqEDqWK",
-      },
-    },
+   
     {
       resolve: "gatsby-source-github",
       options: {
-        client_id: "uL19TxbOTqdHcHTPd1AgQbR-FjqEDqWK",
-        client_secret: "9762db2dfc39e0b0e8d9988b89ebe8ad0221488e",
+        client_id: "to-replace",
+        client_secret: "to-replace",
       },
     },
     {
